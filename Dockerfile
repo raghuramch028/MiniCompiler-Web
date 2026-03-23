@@ -17,7 +17,7 @@ RUN npm install
 COPY . .
 
 # Ensure the Java code is compiled into the bin/ folder within the container
-RUN mkdir -p bin && javac -d bin src/MiniCompiler.java src/VMToMipsTranslator.java
+RUN mkdir -p bin && javac -encoding utf8 -d bin src/MiniCompiler.java src/VMToMipsTranslator.java
 
 # Expose the exact port your server uses
 EXPOSE 3000
