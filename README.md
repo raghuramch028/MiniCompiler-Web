@@ -2,6 +2,9 @@
   <h1>🚀 MiniCompiler & VM-to-MIPS Translator</h1>
   <p>An end-to-end full-stack project combining a custom Java Compiler with a modern Web Interface.</p>
 
+  **[🌐 Review the Live Web Demo Here](https://minicompiler-web.onrender.com)**
+  <br><br>
+
   [![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](#)
   [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](#)
   [![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](#)
@@ -72,13 +75,13 @@ To make the compiler accessible, a modern, glassmorphic REST API and web applica
    npm install
    ```
 
-### Running the App
+### Running the App Locally
 
 Start the backend server using the secure NPM script:
 ```bash
 npm start
 ```
-*The server will boot up and automatically listen on `http://localhost:3000`.*
+*The server will boot up and locally host your application at `http://localhost:3000`.*
 
 ---
 <p align="center">Made with ❤️ for Elements of Computing Systems</p>
