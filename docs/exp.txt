@@ -1,0 +1,37 @@
+Compiler (High-level → VM) has these stages:
+
+Lexer – characters → tokens
+
+Parser – tokens → AST
+
+AST – structured program
+
+Semantic checks – symbol table, variable checks
+
+VM Generator – AST → VM code
+
+--------------------------------------------------------------------------------------------
+
+Translator:
+
+VM CODE
+  ↓
+Instruction Classification
+  ↓
+Stack Emulation in MIPS
+  ↓
+Register Operations
+  ↓
+Control Flow Mapping
+  ↓
+MIPS Assembly Code
+
+---------------------------------------------------------------------------------------------
+
+| VM Instruction Type        | Category       |
+| -------------------------- | -------------- |
+| `push`, `pop`              | Stack / Memory |
+| `add`, `sub`, `and`, `or`  | Arithmetic     |
+| `eq`, `lt`, `gt`           | Comparison     |
+| `label`, `goto`, `if-goto` | Control flow   |
+| `call print`               | I/O            |

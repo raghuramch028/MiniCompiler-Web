@@ -1,0 +1,15 @@
+x = 5;
+y = 10;
+
+if (x < y && y != 0) {
+    print(x + y);
+} else {
+    x = x + 1;
+    print(x);
+}
+
+while (x < 20 || y == 10) {
+    x = x + 2;
+    print(x);
+}
+END
