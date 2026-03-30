@@ -53,7 +53,6 @@ To make the compiler accessible, a modern, glassmorphic REST API and web applica
  ┣ 📜 server.js         # The Express API Server logic
  ┣ 📜 .gitignore        # Standard Git ignores tracking
  ┣ 📜 package.json      # NPM scripts and module management
- ┗ 📜 LICENSE           # Open-source MIT License
 ```
 
 ## 🚀 Getting Started
