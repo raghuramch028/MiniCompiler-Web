@@ -1,8 +1,8 @@
 <div align="center">
-  <h1>🚀 MiniCompiler & VM-to-MIPS Translator</h1>
+  <h1> MiniCompiler & VM-to-MIPS Translator</h1>
   <p>An end-to-end full-stack project combining a custom Java Compiler with a modern Web Interface.</p>
 
-  **[🌐 Review the Live Web Demo Here](https://minicompiler-web.onrender.com)**
+  **[Review the Live Web Demo Here](https://minicompiler-web.onrender.com)**
   <br><br>
 
   [![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](#)
@@ -13,20 +13,20 @@
 
 ---
 
-## 📖 Overview
+## Overview
 
 This project is a complete compiler toolchain built from the ground up. It implements a fully functioning **Lexer**, **Recursive Descent Parser**, and **Virtual Machine (VM) Code Generator** written entirely in Java. Furthermore, it includes a downstream **VM-to-MIPS Translator** to emulate stack machines at the instruction level.
 
 To make the compiler accessible, a modern, glassmorphic REST API and web application was built using **Node.js, Express, and Vanilla JS** to seamlessly execute the Java backend via spawned child processes.
 
-## ✨ Features
+## Features
 
 - **Custom Language Parsing**: Understands robust syntax (if/else, while loops, binary operators, variables).
 - **Stack Machine Architecture**: Complies to an intermediate Stack VM language before executing raw MIPS Assembly.
 - **RESTful API**: Exposes `/api/compile` and `/api/translate` for programmatic execution.
 - **Modern Interface**: A sleek, dark-mode GUI enabling code submission in the browser.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Backend Logic (Core)
 - **Java SE 11+**
@@ -42,7 +42,7 @@ To make the compiler accessible, a modern, glassmorphic REST API and web applica
 - **Vanilla JavaScript**: Fetch APIs & DOM manipulation
 - **CSS3 / HTML5**: CSS Variables, Glassmorphism UI, Responsive Design
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 📦 MiniCompiler-Project
@@ -55,7 +55,7 @@ To make the compiler accessible, a modern, glassmorphic REST API and web applica
  ┣ 📜 package.json      # NPM scripts and module management
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 1. Ensure you have **[Java JDK](https://www.oracle.com/java/technologies/downloads/)** installed.
