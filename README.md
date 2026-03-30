@@ -48,7 +48,6 @@ To make the compiler accessible, a modern, glassmorphic REST API and web applica
 📦 MiniCompiler-Project
  ┣ 📂 src               # Raw Java compilation engine & translator source code
  ┣ 📂 bin               # Auto-generated .class executables (Ignored by Git)
- ┣ 📂 docs              # Architectural references, assignment PDFs, and testing inputs
  ┣ 📂 public            # Frontend Web UI (index.html, styles.css, script.js)
  ┣ 📂 node_modules      # Third-party Node.js dependencies (Ignored by Git)
  ┣ 📜 server.js         # The Express API Server logic
